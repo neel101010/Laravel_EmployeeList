@@ -1,31 +1,6 @@
 <html>
 <head>
-    <style>
-        .edit-page {
-            padding: 70px;
-            transition: all 0.5s ease;
-        }
-        .label {
-            margin-bottom: 1px;
-            font-weight: 500;
-            color:  #17a2b8;
-        }
-        .submit-forms{
-            padding-left: 350px;
-        }
-        .form-group input {
-            font-size: 14px;
-            font-weight: 500;
-            width: 50%;
-        }
-        .btn{
-            font-size: 14px;
-            font-weight: 500;
-            width: 50%;
-            background-color: #17a2b8!important;
-            border-color: #17a2b8!important
-        }
-    </style>
+    <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -40,19 +15,19 @@
         <input type="hidden" name="id" value={{$employee->id}}>
         <div class="form-group">
             <label for="first_name" class="label">First Name</label>
-            <input type="text" class="form-control" placeholder={{$employee->first_name}} name="first_name">
+            <input type="text" class="form-control" value={{$employee->first_name}} name="first_name">
         </div>
         <div class="form-group">
             <label for="last_name" class="label">Last Name</label>
-            <input type="text" class="form-control" placeholder={{$employee->last_name}} name="last_name">
+            <input type="text" class="form-control" value={{$employee->last_name}} name="last_name">
         </div>
         <div class="form-group">
             <label for="email" class="label">Email</label>
-            <input type="text" class="form-control" placeholder={{$employee->email}} name="email">
+            <input type="text" class="form-control" value={{$employee->email}} name="email">
         </div>
         <div class="form-group">
             <label for="contact" class="label">Contact</label>
-            <input type="text" class="form-control" placeholder={{$employee->contact}} name="contact">
+            <input type="text" class="form-control" value={{$employee->contact}} name="contact">
         </div>
         <div class="btn"><button type="submit" class="btn btn-primary btn-md btn-block">Edit</button></div>
     </form>

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fa30855-ff4b-4906-9289-aceb6842834d" name="Default Changelist" comment="" />
+    <list default="true" id="4fa30855-ff4b-4906-9289-aceb6842834d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/add_employee.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/add_employee.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/edit_employee.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/edit_employee.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +15,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -132,6 +140,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Employee" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -147,7 +160,8 @@
       <option name="presentableId" value="Default" />
       <updated>1603917280549</updated>
       <workItem from="1603917282258" duration="7639000" />
-      <workItem from="1603961830304" duration="934000" />
+      <workItem from="1603961830304" duration="1226000" />
+      <workItem from="1604493698350" duration="623000" />
     </task>
     <servers />
   </component>
